@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e7e7e7;
+    padding-top: 75px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 2em);
+    padding: 0 1em;
+    height: 75px;
+    /*opacity: 0.9;*/
+    background-color: #607F00;
+    box-shadow: 1px 1px 9px 0px rgba(0, 0, 0, 0.55);
+}
+
+.logo {
+    width: 4em;
+    height: 4em;
+}
+
+.title {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button {
+    width: 2em;
+    height: 2em;
+    margin: 0.5em;
+}
+
+.profile {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0.5em;
+}
+
+.space {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.first {
+    max-width: 20em;
+    font-weight: bold;
+    font-size: xxx-large;
+    color: #24404B;
+}
+
+.second {
+    max-width: 20em;
+    font-weight: bold;
+    font-size: xxx-large;
+    color: #24404B;
+}
+
+.third {
+    max-width: 20em;
+    font-weight: bold;
+    font-size: xxx-large;
+    color: #24404B;
+}
